@@ -1,0 +1,77 @@
+body{
+background-image:url('https://data.whicdn.com/images/317003049/original.jpg?t=1533105179');
+height:100%;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+ul {
+  list-style-type: none;
+  margin:15px ;
+  padding:10px;
+  overflow: hidden;
+  background-color: transparent;
+font-size:18px;
+font:bold;
+font-family: 'Hammersmith One', sans-serif;
+}
+
+li {
+margin:15px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+li.rr{
+
+float:right;
+}
+li.pp{
+font-size:28px;
+float:left;
+}
+li.a11{
+margin-left:150px;
+float:right;
+border:2px solid white;
+border-radius:8px;
+}
+li.a22{
+background-color:green;
+float:right;
+margin:15px;
+padding:5px;
+width:80px;
+border-color:green;
+border-radius:8px;
+}
+
+li.rs{
+float:right;
+
+
+}
+@media only screen and (max-width:500px) {
+  .rr, .pp, .rs,.a11,.a22 {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
